@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-black antialiased;
+}
+
+.container-default {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold tracking-tight;
+}
+
+.card {
+  @apply rounded-2xl border border-gray-200 bg-white shadow-sm;
+}
